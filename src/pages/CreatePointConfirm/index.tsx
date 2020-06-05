@@ -8,7 +8,7 @@ const CreatePointConfirm = () => {
   const history = useHistory();
 
   useEffect(() => {
-    setTimeout(() => history.push('/'), 2000);
+    setTimeout(() => history.push('/'), 4000);
   }, []);
 
   return(
